@@ -130,6 +130,9 @@ class PusherChannelsFlutter {
     await methodChannel.invokeMethod('init', {
       "apiKey": apiKey,
       "cluster": cluster,
+      "host": null,
+      "wsPort": null,
+      "wssPort": null,
       "useTLS": useTLS,
       "activityTimeout": activityTimeout,
       "pongTimeout": pongTimeout,
